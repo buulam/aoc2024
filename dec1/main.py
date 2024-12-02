@@ -20,6 +20,9 @@ for line in left:
     count=count+1
     totaldiff = totaldiff+diff
 print("The total difference is: ", totaldiff)
+## the above code is for Day 1 Part 1 and works
+
+## This part is not working yet
 count = 0
 leftsimscore = 0
 for line in left:
