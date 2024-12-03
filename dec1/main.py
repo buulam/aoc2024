@@ -2,6 +2,8 @@ import math
 fh = open('input.txt')
 left = list()
 right = list()
+
+
 for line in fh:
     numbers = line.split()
     left.append(int(numbers[0]))
@@ -25,8 +27,8 @@ print("The total difference is: ", totaldiff)
 
 
 
-
 ## This part is not working yet
+## ok actually it works now lol
 match = 0
 leftsimscore = 0
 for lline in left:
@@ -47,6 +49,8 @@ print("Final left sim score is: ", leftsimscore, ". Press enter to continue:")
 input()
 
 
+
+'''
 match = 0
 rightsimscore = 0
 for rline in right:
@@ -65,5 +69,5 @@ for rline in right:
     #input()
 print("Final right sim score is: ", rightsimscore, ". Total sim score is ", (rightsimscore + leftsimscore))
 input()
-
+'''
 
